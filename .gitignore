@@ -1,0 +1,6 @@
+# Sublime Text files:
+*.sublime-*
+
+# Python compiled code:
+*.pyc
+
