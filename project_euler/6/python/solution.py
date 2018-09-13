@@ -12,10 +12,13 @@ def difference_between_sum_of_squares_and_sum_of_n_first_natural_numbers(n: int)
     A = n(n + 1)(2n + 1)/6
     """
 
-    A = n * (n + 1) * ((2 * n) + 1) / 6
-    B = n * (n + 1) / 2
-    B_squared = B ** 2
-    return int(abs(A - B_squared))
+    # A = n * (n + 1) * ((2 * n) + 1) / 6
+    # B = n * (n + 1) / 2
+    # B_squared = B ** 2
+    #
+    # Algebraically simplified:
+    result = 3 * (n ** 4 - n ** 2) + 2 * (n ** 3 - n)
+    return int(result / 12)
 
 
 if __name__ == '__main__':
