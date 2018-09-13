@@ -1,0 +1,8 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["x10an14 <x10an14@users.noreply.github.com>"]
+
+[dependencies]
+cached = "0.6.0"
+lazy_static = "1.1.0"
